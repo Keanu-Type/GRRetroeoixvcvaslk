@@ -1,0 +1,208 @@
+#title{
+  background-color: #88E0EF;
+}
+.head{
+  background-color: #38b0d2;
+}
+.Tu{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 12rem;
+  font-weight: 800;
+  color: black;
+  padding-left: 5%;
+}
+.topchoice{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12rem;
+  font-weight: 800;
+  line-height:1.5;
+  color: black;
+  padding-right: 5%;
+}
+body{
+
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.brand-title{
+  font-family: 'Press Start 2P', cursive;
+  font-weight:500;
+  font-size: 1.5rem;
+}
+.links{
+font-family: 'Press Start 2P', cursive;
+font-weight: 500;
+font-size: 1.5rem;
+}
+.nav-list{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  top:30px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: black;
+}
+.btn-download{
+  margin: 5% 3% 5% 0;
+}
+.fab-icon{
+  margin-right: 8px
+}
+.title-img{
+  width:90%;
+  left:10%;
+  right: 5%;
+  position: absolute;
+
+}
+/*features section*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index:1;
+}
+
+.hov{
+  color: #193498;
+  margin: 1rem;
+
+}
+.hov:hover{
+  color: #113CFC;
+}
+.feature-title{
+  font-size: 2rem;
+  font-weight: 900;
+}
+/*testimonialss*/
+#testimonials{
+  background-color: white;
+  text-align: center;
+  color:white;
+  left:10px;
+}
+.testimage{
+  border-radius:50%;
+  width: 10%;
+  margin:20px;
+}
+.testtext{
+}
+
+#press{
+  background-color: #B2F9FC;
+  text-align: center;
+  padding: 3%;
+}
+.prlogo0{
+
+  width:80%;
+  margin: 1px 1px 1px;
+}
+.prlogo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.prlogo2{
+  width:50%;
+  margin: 5px 5px 5px;
+}
+#pricing{
+  text-align: center;
+  padding:1rem;
+}
+.row{
+
+  text-align: center;
+  background-color: white;
+}
+.pricehead{
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 2;
+  padding: 1rem;
+  font-family: 'Press Start 2P', cursive;
+}
+#cta{
+  background-color: #B2F9FC;
+  text-align: center;
+
+}
+.ctatitle{
+  font-weight:900;
+  line-height:1.5;
+  color: black;
+  font-size: 4rem;
+}
+#footer{
+  padding: 7% 7%;
+  text-decoration: center;
+  font-size: 1rem;
+  background-color: #88E0EF;
+}
+
+.Size{
+  padding: 20px;
+}
+
+@media (max-width: 1024px){
+  .title-quote{
+    font-size:3rem;
+  }
+  .prlogo0{
+  width: 80%;
+  }
+}
+@media(max-width:768px){
+  .title-quote{
+   padding-bottom: 50px;
+  }
+  .title-img{
+    position: relative;
+    left: 10px;
+    width: 50%;
+
+  }
+  .prlogo0{
+    top:100px;
+  }
+  .column-one{
+    text-align: center;
+  }
+
+}
+@media(max-width:425px){
+  .mobile-toggle{
+  margin: auto;
+  }
+  .Tu{
+    marginauto;
+    right:200px;
+  }
+}
+@media(min-width:1024px){
+  .quotemin{left:100px;
+  padding-bottom: 8%;}
+  .title-img{left:200px}
+  .laptop{
+    top: 30px;
+    left:80px;
+    bottom: 10px;
+  }
+  body{
+    padding-left:50px;
+    padding-right:50px;
+  }
+}
+hr.new1 {
+  border-top:5px solid red;
+}
